@@ -1,0 +1,62 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+}
+
+/* remove all shits from default button */
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none;
+
+  border-style: solid;
+  background-color:#b4b4b4;
+}
+
+.pannel {
+  display: flex;
+}
+
+.display {
+  
+  background-color: #fff;
+  border-style: solid;
+  height: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+  width: 120px;
+}
+
+.incrementer {
+  display: flex;
+  flex-direction: column;
+}
+
+.incrementer button {
+  
+  width: 50px;
+  height: 100%;
+  font-size: 30px;
+  border-left: none;
+}
+
+.incrementer button:first-child {
+  border-bottom: none;
+}
+
+.reset {
+  border-top: none;
+  font-size: 20px;
+}

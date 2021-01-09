@@ -1,0 +1,12 @@
+.index {
+  height: 100%;
+  
+  display: flex;
+  
+  background-color: pink;
+}
+
+
+.navBar {
+  background-color: red;
+}
